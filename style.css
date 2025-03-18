@@ -1,0 +1,146 @@
+/* Kiera's Extra Cool CSS File */
+
+@font-face {font-family: 'OpenDyslexic-Regular';
+			  src: url(OpenDyslexic-Regular.otf);
+			  font-weight: normal;
+			  font-style: normal;}
+
+@font-face {font-family: 'Reswysokr'; 
+            src: url(Reswysokr.otf);
+            font-weight: normal;
+            font-style: normal;}
+
+body { font-family: 'OpenDyslexic-Regular', verdana, arial, sans-serif;
+       font-size:12px;
+       line-height:1.5;
+       margin:0;
+       padding:0;
+       background: white url(images/flbg.png); }
+
+body { margin: 2px 10px; }
+
+/* this is a longer way
+body { margin-top: 2px;
+       margin-bottom: 2px;
+       margin-left: 10px;
+       margin-right: 10px; }
+*/
+
+
+/* adding a comment so this will be ignored
+body { font-family:verdana, arial, sans-serif;
+       font-size:12px;
+       line-height:1.5;
+       margin:0;
+       padding:0;
+       background: white url(images/skinbg.jpg); }
+*/
+
+
+h1, h2 { font-family: 'Reswysokr',verdana; sans-serif; }
+
+h1 { font-size: 300%; }
+
+h2 { font-size: 200%; 
+     color: darkcyan;
+     text-decoration: underline wavy darkcyan 0px; }
+
+p, h1, h2, ol, ul { margin: 5px 10px 1px; }
+
+ol { padding-left:0;
+     margin-left: 30px; }
+
+img { padding: 4px;
+      border: 5px double black;
+      background-color: white;
+      margin-left: 2px; }
+
+
+a { color: DarkCyan;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid DarkSlateBlue;
+    padding-bottom: 0px; }
+
+a:visited { color: DarkSlateBlue; }
+a:hover, a:focus, a:active { background-color: White; color: DarkCyan; border-bottom-color: Aquamarine; margin: auto; }
+
+
+div#wrapper { width: 728px;
+	      margin-left: auto;
+	      margin-right: auto;
+	      margin-top: 10px;
+	      margin-bottom: 10px;
+	      background-color: Cornsilk;
+	      background-repeat: repeat-y;
+	      background-position: left top;
+	      background-attachment: scroll;
+	      border: 5px groove darkslateblue; }
+
+
+article { float: left; 
+	  width: 500px;
+	  padding-left: 10px; }
+
+nav { float: right;
+      width: 200px;
+      padding-right: 5px; }
+
+footer { clear: both;
+         padding: 10px;
+         font-size: 75%;
+         height: 1%; 
+         background-color: aliceblue;
+         color: rosybrown;
+         border-top: 2px solid darkcyan; }
+
+footer p { margin-bottom: 0; }
+
+footer a:link { color: palevioletred; }
+
+footer a:hover, footer a:focus, footer a:active { background-color: transparent; 
+                                                  border: none; }
+
+nav ul { list-style-type: none;
+	 border: 1px solid blue;
+         margin-left: 0px;
+	 padding-left: 5px;
+	 border-bottom: none;
+	 display: block;
+	 line-height: 2;
+	 height: 1%; }
+
+nav a { display: block;
+	background: seashell;
+	padding-left: 1px;
+	line-height: 2;
+	border-bottom-color: blue;
+	height: 1%; }
+
+nav a:hover { background-color: plum; }
+
+nav li { display: inline; }      
+
+
+header { height: 90px; margin-bottom: 20px; }
+header h1, header p { text-indent: -9999999px; }
+
+body.home header { background: white url(images/babyhome.png); no-repeat; }
+
+body.about header { background: white url(images/babyabout.png); no-repeat; }
+
+body.contact header { background: white url(images/babycontact.png); no-repeat; }
+
+body.services header { background: white url(images/babyservices.png); no-repeat; }
+
+
+table { border: 1px solid black; }
+
+caption {display: none; }
+
+thead { color: white;
+        background-color: palevioletred;
+	text-align: left; }
+
+tbody { font-family: georgia, serif;
+	font-size: 90% }
