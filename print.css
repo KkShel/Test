@@ -64,7 +64,7 @@ div#wrapper { width: 728px;
 article { width: 500px;
 	  padding-left: 10px; }
 
-nav { float: right;
+nav { display: none;
       width: 200px;
       padding-right: 5px; }
 
